@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gilroy-Bold" ,sans-serif;
+    background-color: #FFFFFF;
+    font-size: 18px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 33px 0 32px;
+    border-bottom: 1px solid  #828282;;
+}
+
+.menu > li > a {
+    color: #828282;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./fonts/Gilroy-Bold.ttf') format('ttf'),
+    url('./fonts/Gilroy-Medium.woff') format('woff'),
+    url('./fonts/Gilroy-Bold.woff2') format('woff2');
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.header__logo {
+    font-size: 47px;
+    padding-top: 40px;
+}
+.header__info {
+    font-family: 'Gilroy-Medium', sans-serif;
+    width:156px ;
+    padding-top: 95px;
+}
+
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url('./fonts/Gilroy-Medium.ttf') format('ttf'),
+    url('./fonts/Gilroy-Medium.woff')format('woff'),
+    url('./fonts/Gilroy-Medium.woff2')format('woff2');
+}
+
+img {
+    display: block;
+}
+
+header {
+    padding-bottom: 104px;
+}
+
+.section__header {
+    font-size: 34px;
+    text-align: center;
+}
+
+.text {
+    font-family: "Gilroy-Medium", sans-serif;
+    width: 485px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about > .container > .section__header {
+    padding-top: 120px;
+}
+
+.about_text:nth-child(2) {
+    padding-top: 18px;
+}
+
+.about_text:last-child {
+    padding-bottom: 107px;
+}
+
+.about {
+    background-color: #F2F2F2;
+}
+
+.skill_soft {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 110px;
+}
+
+.skills {
+    padding-top: 91px;
+}
+
+.skills_text {
+padding: 69px 0 84px;
+}
+
+.skills_soft_text {
+    font-size: 14px;
+    color:#828282;
+    padding: 24px 0 40px;
+    text-align: center;
+}
+
+.skills_soft_box > :first-child {
+    height: 90px;
+    align-items: center;
+
+}
+
+.skills_soft_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 215px;
+}
+
+.skills_soft_box > :last-child {
+    margin-top: auto;
+}
+
+.portfolio > .container > .section__header {
+    padding: 113px 0 47px;
+}
+
+.portfolio > .container > img {
+    padding-bottom: 95px;
+}
+
+.portfolio > .container > a > p {
+    padding-bottom: 99px;
+}
+
+.portfolio > .container > a:last-child > p{
+    padding-bottom: 96px;
+}
+
+.portfolio > .container > a {
+    color: black;
+}
+
+.portfolio {
+    background-color: #F6F6F6;;
+}
+
+.contacts>.section__header {
+padding: 114px 0 20px;
+}
+
+.contacts__text {
+    font-family: "Gilroy=Medium", sans-serif;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    padding: 46px 0 123px;
+}
+
+.contacts__icons {
+    margin: 0 auto;
+    display: flex;
+    width: 342px;
+    justify-content: space-between;
+
+}
+
+.contacts__btm {
+    display: block;
+    margin: 30px auto 86px;
+    font-family: "Gilroy-Medium" sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 7px 30px 6px 28px;
+    border-radius: 25px;
+    border: 0;
+    line-height: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contacts__btm:active {
+    transform: scale(0.9);
+    transition: 0.5s;
+
+}
+
+.contacts__icons > img:nth-child(odd):hover {
+    transform: rotate(45deg);
+    transition:0.5s;
+}
+
+.contacts__icons > img:nth-child(even):hover {
+    transform: rotate(45deg);
+    transition:0.5s;
+}
+
+.contacts__icons > img {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
