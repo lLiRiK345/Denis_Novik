@@ -247,6 +247,21 @@ header {
     top: 68px;
   }
 
+  .about>.container>.section__header {
+    padding: 81px 0 30px;
+}
+.about_text:nth-child(2) {
+    padding: 0;
+}
+
+.text {
+    width: 316px;
+}
+
+.about_text:last-child {
+    padding-bottom: 76px;
+}
+
 }
 
 @font-face {
