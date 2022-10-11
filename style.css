@@ -276,7 +276,40 @@ header {
     padding-bottom: 0;
 }
 
+.portfolio>.container>.section__header {
+    padding: 81px 0 65px;
+}
 
+.portfolio>.container>img {
+    width: 316px;
+}
+
+.portfolio>.container>a>p {
+    padding-bottom: 78px;
+}
+
+.portfolio>.container>a:last-child {
+    padding-bottom: 81px;
+}
+
+.contacts>.section__header {
+    padding: 81px 0 27px;
+}
+
+.contacts__btm {
+    width: 316px;
+    margin-bottom: 48px;
+}
+
+.contacts__icons {
+    width: 316px;
+}
+
+.contacts__text {
+    margin: 0 auto;
+    padding: 49px 0 90px;
+    width: 316px;
+}
 
 }
 
