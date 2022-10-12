@@ -321,7 +321,7 @@ header {
   }
 
 
-  @media (max-width:786px) {
+  @media (max-width:768px) {
     .container {
         width: 80%;
     }
@@ -365,6 +365,23 @@ header {
         width: 100%;
       }
   }
+
+@media (min-width:425px) and (max-width:618px) {
+    .text {
+        width: 100%;
+    }
+}
+
+@media (max-width:1024px) {
+
+}
+
+
+@media (min-width:829px) and (max-width:1024px) {
+    .skills__soft {
+        gap: 160px;
+    }
+}
 
 @font-face {
     font-family: "Gilroy-Medium";
