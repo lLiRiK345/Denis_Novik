@@ -1,11 +1,11 @@
-const burger = document.querySelector('.burger')
-const popUp = document.querySelector('.popup')
-const close = document.querySelector('.close')
+const popUp = document.querySelector(".popup");
+const close = document.querySelector(".close");
 
-burger.addEventListener('click', () => {
-  popUp.style.display = 'block'
-})
-
-close.addEventListener('click', () => {
-  popUp.style.display = 'none'
-})
+close.addEventListener("click", () => {
+  popUp.classList.toggle("popUp-active");
+  if (popUp.classList.contains("popUp-active")) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
+});
