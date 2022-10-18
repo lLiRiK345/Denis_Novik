@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="popup">
       <div class="popup__back">
         <div class="nav">
@@ -21,107 +21,139 @@
         </div>
       </div>
     </div>
-    <Header>
-    <div class="container">
-    <nav>
-        <ul class="menu">
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#about">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contacts">Contacts</a></li>
-        </ul>
-    </nav>
-    <div class="header">
-        <div class="header__logo">
+          </ul>
+        </nav>
+        <div class="header">
+          <div class="header__logo">
             <p>Denis</p>
             <p>Novik</p>
+          </div>
+          <div class="header__info">
+            <p>
+              UX | UI designer <br />
+              24 years old, Minsk
+            </p>
+          </div>
+          <div class="burger" style="display: none">
+            <span class="burger_top"></span>
+            <span class="close"></span>
+            <span class="close"></span>
+            <span class="burger_bot"></span>
+          </div>
         </div>
-        <div class="header__info">
-            <p>UX | UI designer <br> 24 years old, Minsk</p>
+        <picture>
+          <source srcset="./img/Header_mob.png" media="(max-width: 376px)" />
+          <img src="./img/Header_decs.png" alt="Header_decs" />
+        </picture>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section__header">About Me</h2>
+          <p class="about_text text">
+            Hi, I'm Denis – UX/UI designer from Minsk. <br />
+            I'm interested in design and everything connected with it.
+          </p>
+          <br />
+          <br />
+          <p class="about_text text">
+            I'm studying at courses "Web and mobile design interfaces" in
+            IT-Academy.
+          </p>
+          <br />
+          <br />
+          <p class="about_text text">
+            Ready to implement excellent projects with wonderful people.
+          </p>
         </div>
-        <span class="close"></span>
-    </div>
-    <picture>
-        <source srcset="./img/Header_mob.png" media="(max-width: 376px)">
-        <img src="./img/Header_decs.png" alt="Header_decs">
-    </picture>
-    </div>
-    </Header>
-    <Main>
-        <section id="about" class="about">
-            <div class="container">
-                <h2 class="section__header">About Me</h2>
-                <p class="about_text text">Hi, I'm Denis – UX/UI designer from Minsk. <br>
-                    I'm interested in design and everything connected with it.
-                    </p>
-                    <br>
-                    <br>
-                <p class="about_text text">I'm studying at courses "Web and mobile design 
-                    interfaces" in IT-Academy.</p>
-                    <br>
-                    <br>
-                <p class="about_text text">Ready to implement excellent projects
-                     with wonderful people.</p>
+      </section>
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2 class="section__header">Skills</h2>
+          <p class="skills_text text">I work in such programs as</p>
+          <div class="skill_soft">
+            <div class="skills_soft_box">
+              <img src="./img/skills/Group.svg" />
+              <p class="skills_soft_text">
+                Adobe<br />
+                Photoshop
+              </p>
+              <img src="./img/skills/Star_4.svg" alt="stars" />
             </div>
-        </section>
-        <section id="skills" class="skills">
-            <div class="container">
-                <h2 class="section__header">Skills</h2>
-                <p class="skills_text text">I work in such programs as</p>
-                <div class="skill_soft">
-                    <div class="skills_soft_box">
-                        <img src="./img/skills/Group.svg">
-                        <p class="skills_soft_text">Adobe<br>
-                            Photoshop</p>
-                    <img src="./img/skills/Star_4.svg" alt="stars">
-                    </div>
-                    <div class="skills_soft_box">
-                        <img src="./img/skills/Group (5).svg">
-                        <P class="skills_soft_text">Adobe<br>
-                            Illustrator</P>
-                            <img src="./img/skills/Star_3.svg" alt="stars">
-                    </div>
-                    <div class="skills_soft_box">
-                        <img src="./img/skills/Group (6).svg">
-                        <P class="skills_soft_text">Adobe<br>
-                            After Effects</P>
-                            <img src="./img/skills/Star_4.svg" alt="stars">
-                    </div>
-                    <div class="skills_soft_box">
-                        <img src="./img/skills/Group (3).svg">
-                        <p class="skills_soft_text">Figma</p>
-                        <img src="./img/skills/Star_4.svg" alt="stars">
-                    </div>
-                </div>
+            <div class="skills_soft_box">
+              <img src="./img/skills/Group (5).svg" />
+              <p class="skills_soft_text">
+                Adobe<br />
+                Illustrator
+              </p>
+              <img src="./img/skills/Star_3.svg" alt="stars" />
             </div>
-        </section>
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-                <h2 class="section__header">Portfolio</h2>
-                <img src="./img/portfolio/Слой 8.png" alt="fashion_store" width="940px">
-                <a href="https://fashionstore.ru/" target="_blank"><p class="text">Online fashion store - Homepage</p></a>
-                <img src="./img/portfolio/reebok_web.png" alt="reebok">
-                <a href="https://www.reebok.ru/"  target="_blank"><p class="text">Reebok Store - Concept</p></a>
-                <img src="./img/portfolio/Braun.png" alt="Braun">
-                <a href="https://braun-russia.ru/" target="_blank"><p class="text">Braun Landing Page - Concept</p></a>
+            <div class="skills_soft_box">
+              <img src="./img/skills/Group (6).svg" />
+              <p class="skills_soft_text">
+                Adobe<br />
+                After Effects
+              </p>
+              <img src="./img/skills/Star_4.svg" alt="stars" />
             </div>
-        </section>
-    </Main>
-    <Footer id="contacts" class="contacts">
-        <h2 class="section__header">Contacts</h2>
-        <p class="text">Want to know more or just chat?<br>
-            You are welcome!</p>
-            <button class="contacts__btm">Send Message</button>
-            <div class="contacts__icons">
-                <img src="./img/contacts/Group 2.svg" alt="in">
-                <img src="./img/contacts/Group 8.svg" alt="o">
-                <img src="./img/contacts/Group 9.svg" alt="be">
-                <img src="./img/contacts/Group 10.svg" alt="int">              
-           </div>
-           <p class="contacts__text">Like me on <br>
-            LinkedIn, Instagram, Behance, Dribble</p>
-    </Footer>
+            <div class="skills_soft_box">
+              <img src="./img/skills/Group (3).svg" />
+              <p class="skills_soft_text">Figma</p>
+              <img src="./img/skills/Star_4.svg" alt="stars" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2 class="section__header">Portfolio</h2>
+          <img
+            src="./img/portfolio/Слой 8.png"
+            alt="fashion_store"
+            width="940px"
+          />
+          <a href="https://fashionstore.ru/" target="_blank"
+            ><p class="text">Online fashion store - Homepage</p></a
+          >
+          <img src="./img/portfolio/reebok_web.png" alt="reebok" />
+          <a href="https://www.reebok.ru/" target="_blank"
+            ><p class="text">Reebok Store - Concept</p></a
+          >
+          <img src="./img/portfolio/Braun.png" alt="Braun" />
+          <a href="https://braun-russia.ru/" target="_blank"
+            ><p class="text">Braun Landing Page - Concept</p></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer id="contacts" class="contacts">
+      <h2 class="section__header">Contacts</h2>
+      <p class="text">
+        Want to know more or just chat?<br />
+        You are welcome!
+      </p>
+      <button class="contacts__btm">Send Message</button>
+      <div class="contacts__icons">
+        <img src="./img/contacts/Group 2.svg" alt="in" />
+        <img src="./img/contacts/Group 8.svg" alt="o" />
+        <img src="./img/contacts/Group 9.svg" alt="be" />
+        <img src="./img/contacts/Group 10.svg" alt="int" />
+      </div>
+      <p class="contacts__text">
+        Like me on <br />
+        LinkedIn, Instagram, Behance, Dribble
+      </p>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
