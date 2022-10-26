@@ -293,7 +293,7 @@ header {
 .close_left {
   transform: rotate(-45deg);
 }
-
+/*
 .close::after {
   content: "";
   width: 27px;
@@ -301,16 +301,16 @@ header {
   background-color: black;
   position: absolute;
   top: 12px;
-  /*transform: rotate(-45deg);*/
+  /*transform: rotate(-45deg);
   transition: 0.5s;
-}
+}*/
 
 .close:hover::after,
 .close:hover::before {
   background-color: #070707;
   transition: 0.5s;
 }
-
+/*
 .close::before {
   content: "";
   width: 27px;
@@ -318,9 +318,9 @@ header {
   background-color: black;
   position: absolute;
   top: 12px;
-  /*transform: rotate(45deg);*/
+  /*transform: rotate(45deg);
   transition: 0.5s;
-}
+}*/
 
 .nav > ul {
   list-style-type: none;
