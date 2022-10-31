@@ -1,0 +1,40 @@
+
+.skill_soft {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 110px;
+  }
+  
+  .skills {
+    padding-top: 91px;
+  }
+  
+  .skills_text {
+    padding: 69px 0 84px;
+  }
+  
+  .skills_soft_text {
+    font-size: 14px;
+    color: #828282;
+    padding: 24px 0 40px;
+    text-align: center;
+  }
+  
+  .skills_soft_box > :first-child {
+    height: 90px;
+    align-items: center;
+  }
+  
+  .skills_soft_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 215px;
+  }
+  
+  .skills_soft_box > :last-child {
+    margin-top: auto;
+  }
+  

@@ -3,6 +3,19 @@
   padding: 0;
 }
 
+@import url("./header.css");
+@import url("./about.css");
+@import url("./skills.css");
+@import url("./portfolio.css");
+@import url("./contacts.css");
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("./fonts/Gilroy-Bold.ttf") format("ttf"),
+    url("./fonts/Gilroy-Medium.woff") format("woff"),
+    url("./fonts/Gilroy-Bold.woff2") format("woff2");
+}
+
 body {
   font-family: "Gilroy-Bold", sans-serif;
   background-color: #ffffff;
@@ -36,12 +49,7 @@ html {
   transition: 0.5s;
 }
 
-@font-face {
-  font-family: "Gilroy-Bold";
-  src: url("./fonts/Gilroy-Bold.ttf") format("ttf"),
-    url("./fonts/Gilroy-Medium.woff") format("woff"),
-    url("./fonts/Gilroy-Bold.woff2") format("woff2");
-}
+
 
 .header {
   display: flex;
@@ -106,23 +114,23 @@ header {
   padding-top: 91px;
 }
 
-.skills_text {
+.skills__text {
   padding: 69px 0 84px;
 }
 
-.skills_soft_text {
+.skills__soft__text {
   font-size: 14px;
   color: #828282;
   padding: 24px 0 40px;
   text-align: center;
 }
 
-.skills_soft_box > :first-child {
+.skills__soft__box > :first-child {
   height: 90px;
   align-items: center;
 }
 
-.skills_soft_box {
+.skills__soft__box {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -131,7 +139,7 @@ header {
   height: 215px;
 }
 
-.skills_soft_box > :last-child {
+.skills__soft__box > :last-child {
   margin-top: auto;
 }
 
@@ -481,7 +489,7 @@ header {
     width: 100%;
   }
 
-  .skill_soft {
+  .skill__soft {
     flex-wrap: wrap;
     gap: 80px;
     justify-content: center;

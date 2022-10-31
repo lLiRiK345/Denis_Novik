@@ -1,0 +1,56 @@
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 33px 0 32px;
+    border-bottom: 1px solid #828282;
+  }
+  
+  .menu > li > a {
+    color: #828282;
+    text-decoration: none;
+  }
+  
+  .menu > li > a:hover {
+    color: black;
+    transition: 0.5s;
+  }
+  
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding-bottom: 50px;
+  }
+  
+  .header__logo {
+    font-size: 47px;
+    padding-top: 40px;
+  }
+  .header__info {
+    font-family: "Gilroy-Medium", sans-serif;
+    width: 156px;
+    padding-top: 95px;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  header {
+    padding-bottom: 104px;
+  }
+  
+  .section__header {
+    font-size: 34px;
+    text-align: center;
+  }
+  

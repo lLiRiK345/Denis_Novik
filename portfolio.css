@@ -1,0 +1,25 @@
+
+.portfolio > .container > .section__header {
+    padding: 113px 0 47px;
+  }
+  
+  .portfolio > .container > img {
+    padding-bottom: 95px;
+  }
+  
+  .portfolio > .container > a > p {
+    padding-bottom: 99px;
+  }
+  
+  .portfolio > .container > a:last-child > p {
+    padding-bottom: 96px;
+  }
+  
+  .portfolio > .container > a {
+    color: black;
+  }
+  
+  .portfolio {
+    background-color: #f6f6f6;
+  }
+  

@@ -1,0 +1,55 @@
+
+.contacts > .section__header {
+    padding: 114px 0 20px;
+  }
+  
+  .contacts__text {
+    font-family: "Gilroy=Medium", sans-serif;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    padding: 46px 0 123px;
+  }
+  
+  .contacts__icons {
+    margin: 0 auto;
+    display: flex;
+    width: 342px;
+    justify-content: space-between;
+  }
+  
+  .contacts__btm {
+    display: block;
+    margin: 30px auto 86px;
+    font-family: "Gilroy-Medium" sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: black;
+    padding: 7px 30px 6px 28px;
+    border-radius: 25px;
+    border: 0;
+    line-height: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .contacts__btm:active {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+  
+  .contacts__icons > img:nth-child(odd):hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+  
+  .contacts__icons > img:nth-child(even):hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+  
+  .contacts__icons > img {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
